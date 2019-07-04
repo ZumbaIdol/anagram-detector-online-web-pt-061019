@@ -12,6 +12,6 @@ class Anagram
   # end
   # end
     
-    array.select {|element| element.split("").sort}
+    array.select {|element, word| element.split("").sort == word.split("").sort}
   end
 end
