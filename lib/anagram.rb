@@ -13,5 +13,6 @@ class Anagram
   # end
     
     array.select {|element| element.split("").sort
+    end
   end
 end
